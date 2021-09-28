@@ -1,0 +1,11 @@
+<img src="{{ profileUrl }}" alt="Profile picture">
+<header>
+    <p>Report for<br/><span>{{ profileName }}</span></p>
+</header>
+<nav>
+    <ul #timeModeList>
+        <li *ngFor="let timeMode of TimeMode | keyvalue" (click)="setTimeMode(timeMode.value)" [class.active]="currentTimeMode === timeMode.value">
+            {{ timeMode.value }}
+        </li>
+    </ul>
+</nav>
