@@ -21,6 +21,74 @@
     background-color: hsl(15, 100%, 70%);
 }
 
+:host(.work) .mode-img {
+    content: url("/assets/icon-work.svg")
+}
+
+:host(.work) .mode::before {
+    content: "Work"
+}
+
+:host(.play) {
+    background-color: hsl(195, 74%, 62%);
+}
+
+:host(.play) .mode-img {
+    content: url("/assets/icon-play.svg")
+}
+
+:host(.play) .mode::before {
+    content: "Play"
+}
+
+:host(.study) {
+    background-color: hsl(348, 100%, 68%);
+}
+
+:host(.study) .mode-img {
+    content: url("/assets/icon-study.svg")
+}
+
+:host(.study) .mode::before {
+    content: "Study"
+}
+
+:host(.exercise) {
+    background-color: hsl(145, 58%, 55%);
+}
+
+:host(.exercise) .mode-img {
+    content: url("/assets/icon-exercise.svg")
+}
+
+:host(.exercise) .mode::before {
+    content: "Exercise"
+}
+
+:host(.social) {
+    background-color: hsl(264, 64%, 52%);
+}
+
+:host(.social) .mode-img {
+    content: url("/assets/icon-social.svg")
+}
+
+:host(.social) .mode::before {
+    content: "Social"
+}
+
+:host(.self-care) {
+    background-color: hsl(43, 84%, 65%)
+}
+
+:host(.self-care) .mode-img {
+    content: url("/assets/icon-self-care.svg")
+}
+
+:host(.self-care) .mode::before {
+    content: "Self Care"
+}
+
 .mode-img {
     position: absolute;
     right: 1em;
