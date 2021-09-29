@@ -1,4 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { By } from '@angular/platform-browser';
+import { Activity } from '../activity';
 
 import { TimeComponent } from './time.component';
 
@@ -22,4 +24,5 @@ describe('TimeComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+  
 });

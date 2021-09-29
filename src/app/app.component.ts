@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Activity } from './activity';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'fm-time-tracking-dashboard';
+
+  Activity = Activity;
 }
