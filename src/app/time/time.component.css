@@ -26,7 +26,7 @@
 }
 
 :host(.work) .mode-img {
-    content: url("/assets/icon-work.svg")
+    content: url("/fm-time-tracking-dashboard/assets/icon-work.svg")
 }
 
 :host(.work) .mode::before {
@@ -38,7 +38,7 @@
 }
 
 :host(.play) .mode-img {
-    content: url("/assets/icon-play.svg")
+    content: url("/fm-time-tracking-dashboard/assets/icon-play.svg")
 }
 
 :host(.play) .mode::before {
@@ -50,7 +50,7 @@
 }
 
 :host(.study) .mode-img {
-    content: url("/assets/icon-study.svg")
+    content: url("/fm-time-tracking-dashboard/assets/icon-study.svg")
 }
 
 :host(.study) .mode::before {
@@ -62,7 +62,7 @@
 }
 
 :host(.exercise) .mode-img {
-    content: url("/assets/icon-exercise.svg")
+    content: url("/fm-time-tracking-dashboard/assets/icon-exercise.svg")
 }
 
 :host(.exercise) .mode::before {
@@ -74,7 +74,7 @@
 }
 
 :host(.social) .mode-img {
-    content: url("/assets/icon-social.svg")
+    content: url("/fm-time-tracking-dashboard/assets/icon-social.svg")
 }
 
 :host(.social) .mode::before {
@@ -86,7 +86,7 @@
 }
 
 :host(.self-care) .mode-img {
-    content: url("/assets/icon-self-care.svg")
+    content: url("/fm-time-tracking-dashboard/assets/icon-self-care.svg")
 }
 
 :host(.self-care) .mode::before {
