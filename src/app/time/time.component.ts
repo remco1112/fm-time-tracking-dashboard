@@ -18,8 +18,8 @@ export class TimeComponent implements OnInit {
 
   @HostBinding('className') cls = 'work';
 
-  @Input() currentTime: string = '';
-  @Input() previousTime: string = '';
+  @Input() currentTime: number = 0;
+  @Input() previousTime: number = 0;
   _type: Activity = Activity.WORK;
 
   @Input() set type(value: Activity) {

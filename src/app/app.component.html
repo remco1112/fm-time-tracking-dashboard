@@ -1,9 +1,10 @@
 <div>
   <user profileName="Jeremy Robson" profileUrl="assets/image-jeremy.png"></user>
-  <time [type]="Activity.WORK" currentTime="999" previousTime="999"></time>
-  <time [type]="Activity.PLAY"></time>
-  <time [type]="Activity.STUDY"></time>
-  <time [type]="Activity.EXERCISE"></time>
-  <time [type]="Activity.SOCIAL"></time>
-  <time [type]="Activity.SELFCARE"></time>
+  <!-- TODO: Find a way to iterate over an enum conveniently-->
+  <time [type]="Activity.WORK" [currentTime]="currentTime[Activity.WORK]" [previousTime]="previousTime[Activity.WORK]" [ngClass]="loading ? 'hidden' : ''"></time>
+  <time [type]="Activity.PLAY" [currentTime]="currentTime[Activity.PLAY]" [previousTime]="previousTime[Activity.PLAY]" [ngClass]="loading ? 'hidden' : ''"></time>
+  <time [type]="Activity.STUDY" [currentTime]="currentTime[Activity.STUDY]" [previousTime]="previousTime[Activity.STUDY]" [ngClass]="loading ? 'hidden' : ''"></time>
+  <time [type]="Activity.EXERCISE" [currentTime]="currentTime[Activity.EXERCISE]" [previousTime]="previousTime[Activity.EXERCISE]" [ngClass]="loading ? 'hidden' : ''"></time>
+  <time [type]="Activity.SOCIAL" [currentTime]="currentTime[Activity.SOCIAL]" [previousTime]="previousTime[Activity.SOCIAL]" [ngClass]="loading ? 'hidden' : ''"></time>
+  <time [type]="Activity.SELFCARE" [currentTime]="currentTime[Activity.SELFCARE]" [previousTime]="previousTime[Activity.SELFCARE]" [ngClass]="loading ? 'hidden' : ''"></time>
 </div>

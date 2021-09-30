@@ -50,3 +50,7 @@ div {
         padding-right: 1em;
     }
 }
+
+.hidden {
+    opacity: 0;
+}

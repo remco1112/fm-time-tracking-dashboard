@@ -1,6 +1,7 @@
 :host {
     border-radius: 20px;
     display: block;
+    transition: opacity 0.2s ease-in-out;
 }
 
 :host:hover .container {
