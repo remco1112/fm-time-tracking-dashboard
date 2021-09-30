@@ -15,6 +15,9 @@
     background-color: hsl(235, 46%, 20%);
     border-radius: 20px;
     padding: 1.5em;
+    padding-bottom: ;
+    box-sizing: border-box;
+    height: calc( 100% - 2.5em );
 }
 
 :host(.work) {
@@ -124,6 +127,7 @@
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    column-gap: 1.5em;
 }
 
 .current-time {
@@ -131,7 +135,7 @@
     color: #e6e4fe;
     font-size: 32px;
     margin-top: .3em;
-    margin-bottom: .1em;
+    margin-bottom: .3em;
 }
 
 .previous-time {
@@ -139,10 +143,3 @@
     margin: 0;
     font-size: 16px;
 }
-
-@media (min-width: 992px) {
-    .current-time {
-        font-size: 48px;
-    }
-}
-

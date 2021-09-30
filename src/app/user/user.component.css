@@ -12,6 +12,7 @@ header {
 
 img {
     width: 4em;
+    height: 4em;
     border-style: solid;
     border-width: .2em;
     border-color: white;
@@ -32,12 +33,35 @@ ul {
     list-style-type: none;
     padding: 0;
     margin: 1.5em;
+    margin-top: 1em;
 }
 
 li {
     color: #5d5f9a;
+    margin-bottom: .7em;
+    cursor: pointer;
 }
 
 .active {
     color: #e6e4fe;
+}
+
+@media (max-width: 949px) {
+    header {
+        display: flex;
+        column-gap: 1em;
+        align-items: center;
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 100%;
+        margin-top: 1.em;
+    }
+
+    li {
+        margin-bottom: unset;
+    }
 }
