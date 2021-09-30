@@ -4,8 +4,14 @@
 </header>
 <nav>
     <ul #timeModeList>
-        <li *ngFor="let timeMode of TimeMode | keyvalue" (click)="setTimeMode(timeMode.value)" [class.active]="currentTimeMode === timeMode.value">
-            {{ timeMode.value }}
+        <li (click)="setTimeMode(TimeMode.DAILY)" [class.active]="currentTimeMode === TimeMode.DAILY">
+            {{TimeMode.DAILY}}
+        </li>
+        <li (click)="setTimeMode(TimeMode.WEEKLY)" [class.active]="currentTimeMode === TimeMode.WEEKLY">
+            {{TimeMode.WEEKLY}}
+        </li>
+        <li (click)="setTimeMode(TimeMode.MONTHLY)" [class.active]="currentTimeMode === TimeMode.MONTHLY">
+            {{TimeMode.MONTHLY}}
         </li>
     </ul>
 </nav>
