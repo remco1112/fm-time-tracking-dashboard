@@ -40,6 +40,7 @@ li {
     color: #5d5f9a;
     margin-bottom: .7em;
     cursor: pointer;
+    transition: color 0.2s ease;
 }
 
 .active {
